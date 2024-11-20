@@ -159,7 +159,7 @@ async function autoCompleteTest() {
 
   try {
     console.log("Acessando a página inicial...");
-    await page.goto("https://adesao.cartaodetodos.com.br/dados-pessoais/", {
+    await page.goto("", {
       waitUntil: "networkidle2",
     });
 
